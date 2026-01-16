@@ -1,2 +1,29 @@
-body { text-align: center; font-family: sans-serif; margin-top: 50px; }
-button { font-size: 20px; padding: 10px; margin: 5px; cursor: pointer; }
+body {
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 50px;
+    background-color: #f4f4f4; 
+}
+
+h2 {
+    color: #333;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button:hover {
+    background-color: #e0e0e0; /* Effet quand on passe la souris dessus */
+}
+
+#msg {
+    font-weight: bold;
+    min-height: 30px; /* Évite que la page saute quand le texte change */
+    margin-top: 20px;
+}
